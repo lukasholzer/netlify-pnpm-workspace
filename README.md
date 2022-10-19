@@ -3,10 +3,12 @@
 - `packages/astro-blog` contains a blog built with astro
 
   The blog consists of static pages
+  Deployed here: https://app.netlify.com/sites/pnpm-workspaces-astro-blog/overview
 
 - `packages/nextjs-website` contains a website built with next.js
 
   The website is a server-side rendered page
+  Deployed here: https://app.netlify.com/sites/pnpm-workspaces-nextjs-website/overview
 
 - `packages/components` contains shared react components for both websites
 
