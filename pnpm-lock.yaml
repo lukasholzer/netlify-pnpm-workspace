@@ -10,15 +10,20 @@ importers:
       '@astrojs/mdx': ^0.11.4
       '@astrojs/rss': ^1.0.2
       '@astrojs/sitemap': ^1.0.0
+      '@evilcorp/components': workspace:../components
       astro: ^1.5.1
       rollup: ^3.2.3
     dependencies:
       '@astrojs/mdx': 0.11.4_rollup@3.2.3
       '@astrojs/rss': 1.0.2
       '@astrojs/sitemap': 1.0.0
+      '@evilcorp/components': link:../components
       astro: 1.5.1
     devDependencies:
       rollup: 3.2.3
+
+  packages/components:
+    specifiers: {}
 
   packages/nextjs-website:
     specifiers:
