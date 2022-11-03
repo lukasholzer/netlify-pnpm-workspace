@@ -1,9 +1,10 @@
 {
   "name": "pnpm-workspaces",
-  "packageManager": "pnpm@6.32.18",
+  "packageManager": "pnpm@7.14.2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "pnpm -r build"
   },

@@ -3,14 +3,18 @@
 - `packages/astro-blog` contains a blog built with astro
 
   The blog consists of static pages
-  Deployed here: https://app.netlify.com/sites/pnpm-workspaces-astro-blog/overview
+  Deployed here: https://app.netlify.com/sites/pnpm-workspaces-astro-blog/overview\
+
+  Run it by going into the directory and do `ntl dev`
 
 - `packages/nextjs-website` contains a website built with next.js
 
   The website is a server-side rendered page
   Deployed here: https://app.netlify.com/sites/pnpm-workspaces-nextjs-website/overview
 
-- `packages/components` contains shared react components for both websites
+  Run it by going into the directory and do `ntl dev`
+
+- `packages/button` contains a react button that is used in the astro blog and the next.js website.
 
 ## How this repo was created:
 

@@ -1,0 +1,25 @@
+{
+  "name": "@evilcorp/react-button",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf lib",
+    "build": "tsc",
+    "prepare": "pnpm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "react": "^18.2.0",
+    "typescript": "^4.8.4"
+  }
+}
